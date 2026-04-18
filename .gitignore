@@ -1,0 +1,135 @@
+# -----------------------------
+# OS / editor cruft
+# -----------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# -----------------------------
+# Python bytecode / packaging
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dylib
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+# -----------------------------
+# Python envs / tool caches
+# -----------------------------
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+
+# -----------------------------
+# Jupyter / notebooks
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Kaggle API credentials / config
+# -----------------------------
+kaggle.json
+.kaggle/
+**/.kaggle/
+
+# -----------------------------
+# ML / research outputs
+# -----------------------------
+wandb/
+mlruns/
+lightning_logs/
+runs/
+outputs/
+logs/
+checkpoints/
+artifacts/
+
+# -----------------------------
+# Data / model artifacts (large or generated)
+# -----------------------------
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.h5
+*.hdf5
+*.joblib
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.parquet
+*.feather
+*.arrow
+*.tfrecord
+*.tar
+*.tar.gz
+*.zip
+
+# -----------------------------
+# Node and frontend (common in mixed ML repos)
+# -----------------------------
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+.next/
+.nuxt/
+.svelte-kit/
+
+# -----------------------------
+# Claude / agent runtime files
+# Keep configs if you want them versioned
+# -----------------------------
+.claude/worktrees/
+.claude/scheduled_tasks.json
+.claude/tmp/
+.claude/logs/
+.agent/
+.agents/
+
+# -----------------------------
+# Nested git repos safety
+# Ignore nested repo metadata so child repos don't pollute root git state
+# -----------------------------
+**/.git
+**/.git/**
+**/.gitmodules
+
+# -----------------------------
+# uv local virtualenvs inside subprojects
+# -----------------------------
+**/.venv/
+
+# -----------------------------
+# Local agent guidance docs
+# -----------------------------
+CLAUDE.md
+AGENTS.md
