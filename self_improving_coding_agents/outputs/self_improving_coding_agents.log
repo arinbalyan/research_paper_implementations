@@ -1,0 +1,20 @@
+2026-04-19 17:19:28,942 | INFO | Runtime config: {
+  "timestamp_utc": "2026-04-19T17:19:28.941957+00:00",
+  "python": "3.12.12 (main, Oct 10 2025, 08:52:57) [GCC 11.4.0]",
+  "platform": "Linux-6.6.113+-x86_64-with-glibc2.35",
+  "run_mode": "smoke",
+  "seed": 42,
+  "max_iterations": 3,
+  "candidates_per_iteration": 4,
+  "eval_repeats": 4,
+  "weights": {
+    "accuracy": 1.0,
+    "time": 0.08,
+    "complexity": 0.04
+  }
+}
+2026-04-19 17:19:29,042 | INFO | Initial incumbent: {'name': 'agent_base', 'accuracy': 0.753125, 'latency_ms': 0.6149419999843531, 'complexity': 6, 'utility': 0.47478107658341295}
+2026-04-19 17:19:29,078 | INFO | Iteration 1 | before=0.47478 | after=0.51560 | improved=True | accepted=iter01_cand04_balanced
+2026-04-19 17:19:29,093 | INFO | Iteration 2 | before=0.51560 | after=0.53862 | improved=True | accepted=iter02_cand02_speed
+2026-04-19 17:19:29,104 | INFO | Iteration 3 | before=0.53862 | after=0.57063 | improved=True | accepted=iter03_cand02_balanced
+2026-04-19 17:19:29,618 | INFO | Saved artifacts: ['/kaggle/working/outputs/iteration_metrics.csv', '/kaggle/working/outputs/iteration_metrics.json', '/kaggle/working/outputs/run_config.json', '/kaggle/working/outputs/utility_curve.png', '/kaggle/working/outputs/self_improving_coding_agents.log']

@@ -1,0 +1,15 @@
+{
+  "timestamp_utc": "2026-04-19T17:19:28.941957+00:00",
+  "python": "3.12.12 (main, Oct 10 2025, 08:52:57) [GCC 11.4.0]",
+  "platform": "Linux-6.6.113+-x86_64-with-glibc2.35",
+  "run_mode": "smoke",
+  "seed": 42,
+  "max_iterations": 3,
+  "candidates_per_iteration": 4,
+  "eval_repeats": 4,
+  "weights": {
+    "accuracy": 1.0,
+    "time": 0.08,
+    "complexity": 0.04
+  }
+}

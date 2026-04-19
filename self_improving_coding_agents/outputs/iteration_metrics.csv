@@ -1,0 +1,4 @@
+iteration,accepted_agent,accepted_utility,accepted_accuracy,accepted_latency_ms,accepted_complexity,incumbent_utility_before,improved
+1,iter01_cand04_balanced,0.5155956367697238,0.7875,0.4900423470291742,6,0.47478107658341295,True
+2,iter02_cand02_speed,0.5386171296094477,0.775,0.5758359287322405,5,0.5155956367697238,True
+3,iter03_cand02_balanced,0.5706255179782689,0.803125,0.5011680803131119,5,0.5386171296094477,True

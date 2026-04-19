@@ -1,0 +1,59 @@
+[
+  {
+    "iteration": 1,
+    "incumbent_before": {
+      "name": "agent_base",
+      "accuracy": 0.753125,
+      "latency_ms": 0.6149419999843531,
+      "complexity": 6,
+      "utility": 0.47478107658341295
+    },
+    "accepted": {
+      "name": "iter01_cand04_balanced",
+      "accuracy": 0.7875,
+      "latency_ms": 0.4900423470291742,
+      "complexity": 6,
+      "utility": 0.5155956367697238
+    },
+    "num_candidates": 5,
+    "improved": true
+  },
+  {
+    "iteration": 2,
+    "incumbent_before": {
+      "name": "iter01_cand04_balanced",
+      "accuracy": 0.7875,
+      "latency_ms": 0.4900423470291742,
+      "complexity": 6,
+      "utility": 0.5155956367697238
+    },
+    "accepted": {
+      "name": "iter02_cand02_speed",
+      "accuracy": 0.775,
+      "latency_ms": 0.5758359287322405,
+      "complexity": 5,
+      "utility": 0.5386171296094477
+    },
+    "num_candidates": 5,
+    "improved": true
+  },
+  {
+    "iteration": 3,
+    "incumbent_before": {
+      "name": "iter02_cand02_speed",
+      "accuracy": 0.775,
+      "latency_ms": 0.5758359287322405,
+      "complexity": 5,
+      "utility": 0.5386171296094477
+    },
+    "accepted": {
+      "name": "iter03_cand02_balanced",
+      "accuracy": 0.803125,
+      "latency_ms": 0.5011680803131119,
+      "complexity": 5,
+      "utility": 0.5706255179782689
+    },
+    "num_candidates": 5,
+    "improved": true
+  }
+]
